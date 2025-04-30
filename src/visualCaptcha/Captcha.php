@@ -25,7 +25,7 @@ class Captcha {
 
     // All the cache options
     // Theses options are the related to \Zend\Cache\Storage
-    // By default, it´s been populated as null on Constructor, but you can use array options of Cache ZF2 backend   
+    // By default, itÂ´s been populated as null on Constructor, but you can use array options of Cache ZF2 backend   
     private $cache;
     
     // @param session is the default session object
@@ -297,7 +297,7 @@ class Captcha {
         
         //readfile( $filePath );
         // Add some noise randomly, so images can't be saved and matched easily by filesize or checksum
-        echo $this->utilRandomHex( rand(0,1500) );
+        echo $this->utilRandomHex( rand(1,1500) );
 
         return true;
     }
